@@ -1,0 +1,84 @@
+input.nosubmit {
+  width: 260px;
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  border-radius: 10px;
+  width: 400px;
+
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+.input.nosubmit:hover{
+  background-color: black;
+  color: #fff;
+}
+.nosubmit{
+ margin-left: 50px;
+ margin-top: 5px;
+}
+.nav-logo{
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  position:sticky;
+
+
+
+}
+.btn{
+  border:1px solid darkgray;
+  border-radius: 10px;
+  background-color: darkgray;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin-right: 20px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+  margin-right: 50px;
+}
+.head-search{
+  border: 1px solid black;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  width: 800px;
+  height: 60px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='20' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 5px center;
+  font-size: 14px;
+  
+}
+.heading{
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+  background-color: lemonchiffon;
+  height: 500px;
+
+}
+.para{
+  font-size: 1.3rem;
+}
+.site{
+  font-size: 3rem;
+}
+.masonry{
+  columns: 3;
+  gap: 20px;
+  margin: 20px;
+;
+}
+.masonry-item{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  
+}
